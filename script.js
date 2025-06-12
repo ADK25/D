@@ -111,7 +111,7 @@ function showSeats(department, el){
     if (isTable) {
         div.className = 'table';
         div.innerText = name;
-        div.style.transform = 'translate(-50%, -50%)';
+        div.style.transform = 'translate(-50%, -80%)';
     } else if (isDoor) {
         div.className = 'door';
         div.innerText = '🔻';
