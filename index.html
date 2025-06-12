@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2025교사 좌석표</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="left-panel">
+        <div class="subject-btn" onclick="showSeats('교무실', this)">교무실(2F)</div>
+        <div class="subject-btn" onclick="showSeats('1학년실', this)">1학년실(3F)</div>
+        <div class="subject-btn" onclick="showSeats('2학년실', this)">2학년실(4F)</div>
+        <div class="subject-btn" onclick="showSeats('3학년실', this)">3학년실(5F)</div>
+        <div class="subject-btn" onclick="showSeats('융합디자인교육부', this)">융합디자인교육부(3F/실습동)</div>
+        <div class="subject-btn" onclick="showSeats('체육준비실', this)">체육준비실(5F/실습동)</div>
+        <div class="subject-btn" onclick="showSeats('조형예술교육부', this)">조형예술교육부(2F/강당동)</div>
+        <div class="subject-btn" onclick="showSeats('생활교육부', this)">생활교육부(2F)</div>
+      </div>
+
+      <div class="map-container" id="mapContainer"></div>
+    </div>
+
+    <div class="popup" id="popup">
+      <div class="popup-close" onclick="hidePopup()">*</div>
+      <div class="popup-header" id="popupName"></div>
+      <div class="popup-body" id="popupBody"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
