@@ -135,8 +135,8 @@ function showSeats(department, el){
             const rect = div.getBoundingClientRect();
             const containerRect = document.getElementById('mapContainer').getBoundingClientRect();
 
-            popup.style.left = '150px';
-            popup.style.top = '270px';
+            popup.style.left = '140px';
+            popup.style.top = '300px';
             popup.style.display = 'block';
         };
     }
