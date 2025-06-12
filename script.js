@@ -111,7 +111,7 @@ function showSeats(department, el){
     if (isTable) {
         div.className = 'table';
         div.innerText = name;
-        div.style.transform = 'translate(-50%, -80%)';
+        div.style.transform = 'translate(-50%, -30%)';
     } else if (isDoor) {
         div.className = 'door';
         div.innerText = '🔻';
@@ -135,7 +135,7 @@ function showSeats(department, el){
             const rect = div.getBoundingClientRect();
             const containerRect = document.getElementById('mapContainer').getBoundingClientRect();
 
-            popup.style.left = '140px';
+            popup.style.left = '120px';
             popup.style.top = '300px';
             popup.style.display = 'block';
         };
